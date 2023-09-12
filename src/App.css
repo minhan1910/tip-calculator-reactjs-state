@@ -1,0 +1,50 @@
+body {
+  font-size: 1.4rem;
+}
+
+select,
+input {
+  padding: 0.5rem 2rem;    
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.gap-2 {
+  gap: 1.2rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.message {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 40rem;
+  height: 100vh;
+  margin: 10rem auto;
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.btn {
+  padding: 0.2rem 2rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: 0;
+  cursor: pointer;
+}
